@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '682202701426206');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=682202701426206&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ases del Norte 2 - Red Verificada</title>
+  <style>
+    @keyframes pulse {
+      0% { transform: scale(1); box-shadow: 0 0 12px #25D366; }
+      50% { transform: scale(1.05); box-shadow: 0 0 20px #25D366; }
+      100% { transform: scale(1); box-shadow: 0 0 12px #25D366; }
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('fondo1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Arial', sans-serif;
+      color: white;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    .overlay {
+      background: rgba(50, 0, 75, 0.7);
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 2em 1em;
+    }
+
+    .logo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      margin: 1em auto;
+      background: url('WhatsApp Image 2025-05-05 at 8.50.38 PM.jpeg') no-repeat center center;
+      background-size: cover;
+      box-shadow: 0 0 15px #fff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .logo:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ffbb55;
+    }
+
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 0.5em;
+    }
+
+    h2 {
+      color: #ffbb55;
+      margin-top: 0;
+      font-size: 1.2em;
+    }
+
+    .cta {
+      margin-top: 1.5em;
+    }
+
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5em;
+      background: #25D366;
+      color: white;
+      font-weight: bold;
+      font-size: 1.1em;
+      padding: 2em 3.5em;
+      border-radius: 8px;
+      border: none;
+      box-shadow: 0 0 12px #25D366;
+      text-decoration: none;
+      position: relative;
+      z-index: 2;
+      animation: pulse 2s infinite;
+    }
+
+    .cta-button img {
+      width: 1.2em;
+      height: 1.2em;
+    }
+
+    .benefits {
+      margin-top: 2em;
+      font-size: 1.3em;
+      color: #ffa94d;
+      font-weight: bold;
+      line-height: 1.5em;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      padding: 0 1em;
+    }
+
+    .footer {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 1em 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2em;
+      z-index: 1;
+      font-size: 0.95em;
+    }
+
+    .footer-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+      color: #fff;
+    }
+
+    .footer-item img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .notif {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      width: auto;
+      background-color: rgba(255,255,255,0.3);
+      border: 1px solid #ffffff55;
+      color: white;
+      padding: 0.8em 1.2em;
+      border-radius: 10px;
+      backdrop-filter: blur(6px);
+      font-size: 0.9em;
+      z-index: 10;
+      opacity: 0;
+      transform: translateX(-20px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+      box-shadow: 0 0 10px #fff;
+    }
+
+    .notif.visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.4em;
+        padding: 0 1em;
+      }
+
+      h2 {
+        font-size: 1em;
+        padding: 0 1em;
+      }
+
+      .cta-button {
+        font-size: 1em;
+        padding: 0.8em 1.2em;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .benefits {
+        font-size: 1.1em;
+        padding: 0 1em;
+        line-height: 1.4em;
+        flex-direction: column;
+      }
+
+      .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        font-size: 0.9em;
+        text-align: center;
+      }
+
+      .footer-item {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="logo"></div>
+    <h1>¡UNITE A LOS QUE YA ESTAN GANANDO! </h1>
+    <h2>👇🏽 Contáctanos tocando el boton 👇🏽</h2>
+    <div class="cta">
+      <a href="https://wa.me/5493517522713?text=Hola%2C%20quiero%20que%20me%20hagas%20un%20usuario%20gratis" class="cta-button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="whatsapp" />
+        JUGAR!
+      </a>
+    </div>
+    <div class="benefits">
+      <h3>🔥 NO OLVIDES RECLAMAR TU BONO DE BIENVENIDA 🔥</h3>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-item">
+      <img src="https://img.icons8.com/ios-filled/24/ffffff/headset.png" alt="Atención" />
+      <span>Atención 24/7</span>
+    </div>
+    <div class="footer-item">
+      <img src="https://img.icons8.com/ios-filled/24/ffffff/money.png" alt="Pagos" />
+      <span>Pagos al instante</span>
+    </div>
+    <div class="footer-item">
+      <img src="https://img.icons8.com/ios-filled/24/ffffff/no-alcohol.png" alt="Responsable" />
+      <span>Jugá responsable (+18)</span>
+    </div>
+  </div>
+
+  <div class="notif" id="notifBox"></div>
+
+  <script>
+    const mensajes = [
+      "Carla: Super confiable, me abonaron al instante",
+      "Juan: Recomiendo, son gente de confianza",
+      "Joel: Atienden rápido, buena atención",
+      "Mica: Me respondieron enseguida",
+      "Leo: Muy serios, pagan sin vueltas",
+      "Tati: Me gusta la atención que tienen",
+      "Nico: Cargue y en al instante tenía saldo",
+      "Sofi: La plataforma tiene sus dias, pero si paga",
+      "Nacho: Lore de la suerte",
+      "Joa: Valentina muy buena atencion",
+      "Simon: Los cinco payasos me largo, que suerte",
+      "Romi: Excelente trato, muy atentos",
+      "Fede: El mejor servicio de todos",
+      "Flor: Siempre activos, confiables"
+    ];
+
+    let current = 0;
+    const notif = document.getElementById('notifBox');
+
+    function mostrarNotificacion() {
+      notif.classList.remove('visible');
+      setTimeout(() => {
+        notif.textContent = mensajes[current];
+        notif.classList.add('visible');
+        current = (current + 1) % mensajes.length;
+      }, 500);
+    }
+
+    mostrarNotificacion();
+    setInterval(mostrarNotificacion, 2500);
+    </script>
+
+ <script>
+  window.onload = function() {
+    setTimeout(() => {
+      window.location.href = "https://wa.me/5493517522713";
+    },3500);
+  };
+</script>
+</body>
+</html>
